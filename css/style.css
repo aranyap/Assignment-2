@@ -63,7 +63,6 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
   display: flex;
   flex-direction: column;
 
@@ -90,7 +89,7 @@ h2 {
 
 .button {
     border-radius: 5px;
-    padding: 16px 70px;
+    padding: 16px 80px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -113,7 +112,12 @@ h3 {
 }
 
 #benefits {
-  background-color: #f0efef
+    background-color: #f0efef;
+    padding: 50px 40px;
+}
+
+ul {
+    list-style: initial;
 }
 
 #testimonial {
@@ -132,7 +136,7 @@ h3 {
     background-color: yellow;
     width: 100%;
     display: flex;
-    padding: 40px 100px;
+    padding: 60px 0px;
 }
 
 #invisible-box-1 {
@@ -153,10 +157,18 @@ h3 {
   min-width: 200px;
 }
 
+/*  Footer styles  */
 
 footer {
-  background-color: #121212;
-  color: white;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.social-media img {
+    height: 20px;
+    margin: 50px 30px;
 }
 
 #relaxr-footer {
