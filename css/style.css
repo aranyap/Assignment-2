@@ -49,9 +49,10 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+   /*  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
      background-size: cover;
+     background-position: top;*/
+     font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -65,59 +66,94 @@ body {
   margin: auto;
   display: flex;
   flex-direction: column;
+}
 
+header {
+  display: flex;
+  flex-direction: column;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  display: flex;
+  background-size: cover;
+  width: 100%;
+  background-position: center center;
 }
 
 #relaxr-header {
-  flex-grow: 1;
+  padding-top: 30px;
+  padding-left: 70px;
+  padding-bottom: 50px;
 }
 
 
 h1 {
   color: white;
-  font-size: 24px;
+  font-size: 34px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
+  font-weight: 800;
+}
+
+div h2 {
+/*  padding-left: 30%;
+  padding-right: 30%;*/
+  padding-bottom: 40px;
+  margin-left: 32%;
+  margin-right: 25%;
+
 }
 
 h2 {
   color: white;
-  font-size: 24px;
+  font-size: 30px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-}
-
-.button {
-    border-radius: 5px;
-    padding: 16px 80px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: 'Open Sans', sans-serif;
-    min-height: 40px;
 }
 
 #get-it-now {
   background-color: yellow;
   color: #033048;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 20px;
+/*  width: 15%;
+  padding: 16px 40px;*/
+  margin: auto;
+  margin-bottom: 15%;
+}
+
+.button {
+  border-radius: 5px;
+  padding: 16px 80px;
+  text-align: center;
+  text-decoration: none;
+   /* display: inline-block;*/
+  font-family: 'Open Sans', sans-serif;
+  min-height: 40px;
 }
 
 h3 {
   color: #033048;
-  font-size: 20px;
+  font-size: 30px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
+  padding-bottom: 12px;
 }
 
 #benefits {
-    background-color: #f0efef;
-    padding: 50px 40px;
+  background-color: #f0efef;
+  padding-top: 50px;
+  padding-bottom: 45px;
+  padding-left: 70px;
+  font-size: 15px;
+  font-weight: 100;
+  color: #606161;
+}
+
+#benefits p {
+  padding-bottom: 20px;
 }
 
 ul {
-    list-style: initial;
+  list-style: initial;
+  padding-left: 30px;
 }
 
 #testimonial {
@@ -128,47 +164,56 @@ ul {
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 35%;
+  padding-right: 35%;
+  text-align: center;
+}
+
+#testimonial p {
+  font-size: 24px;
+  font-weight: 100;
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+#quote {
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
 }
 
 #sign-up {
-    background-color: yellow;
-    width: 100%;
-    display: flex;
-    padding: 60px 0px;
+  background-color: yellow;
+  width: 100%;
+  display: flex;
+  padding: 40px 0px;
 }
 
-#invisible-box-1 {
-  flex-grow: 1;
-  min-width: 200px;
-}
 
 #sign-up-now {
-    background-color: #033048;
-    color: white;
-    font-weight: 600;
-    font-size: 22px;
-    margin: auto;
+  background-color: #033048;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  margin: auto;
 }
 
-#invisible-box-3 {
-  flex-grow: 1;
-  min-width: 200px;
-}
 
 /*  Footer styles  */
 
 footer {
-    background-color: #121212;
-    color: white;
-    text-align: center;
-    padding: 40px 0;
+  background-color: #121212;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
 }
 
 .social-media img {
-    height: 20px;
-    margin: 50px 30px;
+  height: 20px;
+  margin: 50px 30px;
 }
 
 #relaxr-footer {
